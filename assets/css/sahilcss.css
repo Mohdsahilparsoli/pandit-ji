@@ -1,0 +1,936 @@
+.selectpoojaonline {
+  padding-top: 52px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.selectpoojaonline .categorypoja {
+  display: flex;
+  align-items: center;
+}
+.selectpoojaonline .categorypoja p {
+  margin-bottom: 0px;
+}
+
+.selectpoojaonline h4 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 39px;
+  color: #353535;
+  padding-bottom: 36px;
+}
+
+.selectpoojaonline .selectpojacoent {
+  padding-left: 16px;
+}
+.selectpoojaonline .selectpojacoent h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #212121;
+}
+.selectpoojaonline .selectpojacoent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e5f63;
+  padding-top: 8px;
+}
+
+.selectpoojaonline .selectpojaprice h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111115;
+  text-align: center;
+}
+.selectpoojaonline .selectpojaprice {
+  padding-top: 54px;
+}
+
+.selectpoojaonline .selectpojaprice a {
+  padding: 16px 64px;
+  background: #f8560d;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+  display: block;
+  margin-top: 16px;
+}
+
+section.astraprofile.login {
+  padding-bottom: 50px;
+}
+.logindetails button.accordion-button {
+  justify-content: space-between;
+}
+.logindetails button.accordion-button a {
+  padding: 10px;
+  border: 1px solid #4285f4;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4285f4;
+}
+
+.logindetails .details {
+  display: flex;
+}
+
+.logindetails .accordion-button::after {
+  display: none;
+}
+
+.logindetails .accordion-button:focus {
+  box-shadow: none;
+}
+
+.logindetails .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+}
+
+.logindetails .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.logindetails .details span {
+  width: 36px;
+  height: 34px;
+  display: inline-block;
+  background: #fffaf5;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: #f8560d;
+}
+.logindetails .details h6 {
+  line-height: 34px;
+  padding-left: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #212121;
+}
+.logindetails .details h6 img {
+  padding-left: 16px;
+}
+.logindetails .accordion-body .logindata a {
+  margin-left: 62px;
+  display: block;
+}
+.logindetails .accordion-body .logindata a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #111115;
+}
+
+.logindetails .sumbitdata textarea,
+.logindetails .sumbitdata select,
+.logindetails .sumbitdata input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  outline: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e4e52;
+  margin-bottom: 24px;
+}
+
+.logindetails .sumbitdata select {
+  background-repeat: no-repeat;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  background-position: 90% center;
+}
+.logindetails .sumbitdata textarea {
+  height: 132px;
+}
+
+.logindetails form h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #111115;
+  padding-bottom: 24px;
+}
+
+.logindetails form .sumbitfom {
+  text-align: center;
+}
+.logindetails form .sumbitfom a.savedata {
+  margin: 0px;
+  padding: 16px 64px;
+  background: #f8560d;
+  border-radius: 30px;
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.logindetails .accordion-body .categorypoja {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.logindetails .accordion-body .categorypoja .selectpojacoent {
+  padding-left: 16px;
+  margin-top: 20px;
+}
+.logindetails .accordion-body .categorypoja .selectpojacoent h6 {
+  padding-bottom: 8px;
+}
+.logindetails .accordion-body .categorypoja:last-child {
+  padding-bottom: 0px;
+}
+
+.logindetails .accordion-body .categorypoja .selectpojacoent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e5f63;
+}
+
+.logindetails .accordion-body .categorypoja .selectpojacoent b {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #111115;
+}
+
+.logindetails .accordion-body .rating {
+  padding-left: 80px;
+}
+
+.logindetails .membership ul li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logindetails .membership ul li b {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #212121;
+}
+.logindetails .membership ul li .radipbtn label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0px 15px;
+}
+
+.logindetails .membership ul li {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+.logindetails .membership ul li:first-child {
+  padding-top: 0px;
+}
+
+.logindetails .membership ul li:last-child {
+  border-bottom: none;
+}
+
+.logindetails .payment .accordion-button::after {
+  display: block;
+}
+
+
+
+.logindetails .payment .paymentdetails {
+  display: flex;
+  align-items: center;
+}
+
+.logindetails .payment .paymentdetails h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #212121;
+  padding-left: 12px;
+}
+
+.paymentdone .modal-content {
+  padding: 36px 0px;
+  border-radius: 10px;
+  max-width: 900px;
+
+}
+
+.paymentdone .modal-content .paymentsucessfull {
+  text-align: center;
+}
+
+.paymentdone .modal-content .paymentsucessfull h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.paymentdone .modal-content .paymentsucessfull p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e5f63;
+}
+.paymentdone .modal-content .paymentsucessfull h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111115;
+}
+.paymentdone .modal-content .paymentsucessfull .btns {
+  display: flex;
+  flex-direction: column;
+  padding-top: 36px;
+}
+
+.paymentdone .modal-content .paymentsucessfull .btns a {
+  padding: 16px;
+  border: 1px solid #f8560d;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8560d;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.paymentdone .modal-content .paymentsucessfull .btns a:last-child {
+  background-color: #f8560d;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.totalprice ul {
+  padding: 24px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.totalprice ul p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e5f63;
+}
+.totalprice ul li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.totalprice ul li b.light {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #222222;
+}
+.totalprice ul li b {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #212121;
+}
+li.price {
+  padding-bottom: 35px;
+  border-bottom: 0.5px dashed #85888e;
+}
+li.totalpricemain {
+  padding-top: 16px;
+}
+
+.totalprice a.pay {
+  margin: 0 auto;
+  display: block;
+  background-color: red;
+  margin-top: 16px;
+  padding: 16px 64px;
+  width: 250px;
+  background: #f8560d;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.border-left {
+  position: relative;
+}
+.border-left::after {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background-color: #e0e0e0;
+  content: "";
+  right: -40px;
+  top: 0;
+}
+
+.alert {
+  max-width: 400px;
+  padding: 16px;
+  background: #4e4e52;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 999;
+  left: -80px;
+  bottom: 40px;
+}
+
+.alerthead {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #747272;
+}
+.alerthead h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  color: #ffffff;
+}
+
+.mainconent {
+  padding-top: 24px;
+  padding-bottom: 0px;
+}
+.mainconent span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  max-width: 180px;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: none;
+  display: inline-block;
+}
+.mainconent p {
+  margin-bottom: 0px;
+  margin-top: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.alertme:hover .alert {
+  display: block;
+}
+
+.logindetails .accordion-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.logindetails .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: calc(1rem - 6px);
+  border-top-right-radius: calc(1rem - 6px);
+}
+.logindetails .accordion-button {
+  border-top-left-radius: calc(1rem - 6px);
+  border-top-right-radius: calc(1rem - 6px);
+  border-bottom-left-radius: calc(1rem - 6px);
+  border-bottom-right-radius: calc(1rem - 6px);
+}
+
+.logindetails .accordion-item:last-of-type .accordion-button {
+  border-bottom-left-radius: calc(1rem - 6px);
+  border-bottom-right-radius: calc(1rem - 6px);
+}
+
+.radipbtn .selectbtn {
+  display: flex;
+  align-items: center;
+}
+
+.logindetails .membership .radipbtn input[type="radio"] {
+  accent-color: #f8560d;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.alert {
+  display: none;
+}
+.alertme {
+  cursor: pointer;
+}
+
+.paymentsoptions .paymentsdetailscard input {
+  width: 100%;
+  padding: 16px 0px 16px 15px;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 30px;
+  outline: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.155817px;
+  color: #5e5f63;
+}
+
+.paymentsoptions .paymentsdetailscard {
+  margin-bottom: 16px;
+}
+.paymentcardnumber {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.paymentcardnumber input {
+  padding: 16px 0px 16px 15px;
+  width: 94px;
+  background: #ffffff;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 30px;
+  outline: none;
+}
+.paymentcardnumber input:first-child {
+  position: relative;
+  margin-right: 27px;
+}
+.paymentcardnumber input:first-child::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: red;
+  right: 0px;
+  top: 0px;
+}
+
+.paymentsoptions .radiobtn{
+    margin-top: 37px;
+}
+
+.paymentsoptions .radiobtn label{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E5F63;
+    padding-left: 14px;
+
+}
+
+.paymentsoptions .radiobtn input[type="radio"]{
+    accent-color: #F8560D;
+}
+
+.onlinepayment ul li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: rgba(33, 33, 33, 0.8);
+    padding: 24px 0px;
+    border-bottom: 0.879487px solid rgba(233, 231, 253, 0.5);
+
+
+}
+.onlinepayment ul li img {
+    padding: 0px 16px;
+}
+
+.onlinepayment ul li:first-child{
+    padding-top: 0px;
+}
+
+.onlinepayment ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+
+ .logindetails .payment .accordion-item {
+    border-top: 0.5px solid #E0E0E0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    padding-top: 36px;
+    padding-bottom: 24px;
+  } 
+
+  
+ .logindetails .payment .accordion-item:first-child{
+    border-top: none;
+    padding-top: 0px;
+ }
+ .logindetails .payment .accordion-item:last-child{
+    padding-bottom: 0px;
+ }
+
+
+ /* virual pooja */
+
+ 
+ 
+ section.poojas.virutalpuja .pojacarts .repladedpojacart{
+    background-color: white;
+ }
+
+ section.poojas.virutalpuja .pojacarts .repladedpojacart .pojcartbody{
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+ section.poojas.virutalpuja .repladedpojacart .pojcartbody .price b{
+    padding-left: 0px;
+ }
+
+ 
+ section.poojas.virutalpuja .pojacarts .repladedpojacart {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    padding: 10px;
+ }
+
+ section.poojas.virutalpuja .pojacarts .repladedpojacart a img {
+    max-width: 338px;
+ }
+
+ section.poojas.virutalpuja .pojacarts .repladedpojacart .descraption {
+    padding-top: 16px;
+ }
+ section.poojas.virutalpuja .pojacarts .repladedpojacart .descraption  p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4E4E52;
+    margin-bottom: 0px;
+ }
+
+ 
+ section.poojas.virutalpuja .pojacarts .repladedpojacart .pojcartbody{
+    padding-bottom: 0px;
+ }
+
+ section.poojas.virutalpuja .pojacarts .repladedpojacart .descraption  p a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+ }
+.showme{
+    display: none;
+}
+
+
+/* ramayan */
+section.astraprofile.ramayan  .aboutramany h4 {
+    padding-bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+.aboutramany .ankandramayna img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+section.astraprofile.ramayan  .aboutramany h5{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 39px;
+    color: #353535;
+    padding-bottom: 24px;
+
+}
+
+section.astraprofile.ramayan  .aboutramany p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4E52;
+    padding-bottom: 48px;
+}
+
+
+
+section.astraprofile.ramayan  .aboutramany h5.offer{
+    padding-bottom: 24px;
+}
+
+section.astraprofile.ramayan  .aboutramany .points p {
+    margin-bottom: 16px;
+    padding-bottom: 0px;
+}
+
+section.astraprofile.ramayan  .aboutramany .points{
+    padding-bottom: 48px;
+}
+
+.ramayan .bookpandit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.ramayan .bookpandit b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-bottom: 24px;
+
+}
+
+.ramayan .bookpandit a {
+    background-color: red;
+    display: block;
+    width: 250px;
+    height: 56px;
+    background: #F8560D;
+    border-radius: 30px;
+    margin: 0 auto;        
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+section.astraprofile.ramayan{
+    padding-bottom: 95px;
+}
+
+
+
+
+
+
+
+section.Musical.specailpoja  .specialpooja {
+  padding-top: 150px;
+}
+
+
+
+
+section.Musical.specailpoja   .formdata {
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+
+section.Musical.specailpoja   .formdata select,
+section.Musical.specailpoja   .formdata input{
+  padding: 16px;
+  border: 1px solid #E0E0E0;
+  border-radius: 30px;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #4E4E52;
+
+}
+section.Musical.specailpoja   .formdata select{
+  background-repeat: no-repeat;
+  outline: none;
+  appearance: none;
+  -moz-appearance:none ;
+  -moz-appearance: none;
+  -o-appearance:none ;
+  -ms-appearance:none ;
+  -webkit-appearance:none ;
+  background-repeat: no-repeat;
+  background-position: 2% center;
+  padding-left: 50px;
+}
+section.Musical.specailpoja   .formdata label{
+  padding-bottom: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+section.Musical.specailpoja   .formdata{
+  margin-bottom: 48px;
+
+}
+
+
+
+
+section.Musical.specailpoja .formdata textarea{
+  width: 100%;
+  height: 112px;
+  outline: none;
+  padding: 16px;
+  border: 1px solid #E0E0E0;
+  border-radius: 30px;
+
+}
+
+section.Musical.specailpoja .pojamode p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+section.Musical.specailpoja .pojamode a {
+  padding: 10px 37px;
+  border: 1px solid #1400FF;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1400FF;
+
+}
+section.Musical.specailpoja .pojamode a:last-child{
+  border: 1px solid #FF2E00;
+  color: #FF2E00;
+}
+
+section.Musical.specailpoja .savedata{
+  padding-top: 68px;
+}
+
+section.Musical.specailpoja .savedata a {
+  padding: 16px 64px;
+  background: #F8560D;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+
+}
+
+
+.paymentdone .modal-dialog.modal-dialog-centered{
+  max-width: 603px;
+
+}

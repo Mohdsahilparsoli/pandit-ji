@@ -1,0 +1,45 @@
+@media (max-width:1399px) {
+    header .main-header .navbar-nav .nav-item .nav-link{
+        padding: 10px 10px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .top-rated-pandit{
+        padding: 40px 0;
+    }
+    .top-rated-pooja{
+        padding: 40px 0;
+    }
+    .testimonial-card{
+        margin-top: 40px;
+    }
+    .reg-form .form-group .form-control,
+    .get-touch .form-group .form-control{
+        height: 45px;
+        padding: 10px 15px;
+    }
+    .btn-contact-ft,
+    .social-media-link{
+        max-width: 230px;
+        width: 100%;
+        height: 45px;
+    }
+    .btn-contact-ft{
+        margin-bottom: 20px;
+    }
+    .footer-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-menu li{
+        margin-bottom: 10px;
+    }
+    .login-modal .modal-content{
+        max-width: 480px;
+        padding: 20px;
+    }
+    .filter-serach .input-group{
+        height: 45px;
+    }
+}
