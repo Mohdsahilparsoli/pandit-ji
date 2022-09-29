@@ -1345,7 +1345,7 @@ footer .bottom-footer p {
 }
 
 .chat-btn {
-    padding: 8px 76px;
+    padding: 8px 15px;
     max-width: 227px;
     width: 100%;
     height: 40px;
@@ -1358,11 +1358,9 @@ footer .bottom-footer p {
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    display: block;
 }
-
 .chat-btn:hover{
-    color: #ffffff;
+    color:#ffffff ;
 }
 
 .chat-btn img {
@@ -1617,7 +1615,8 @@ footer .bottom-footer p {
 .card-pandit.select-card .right-align ul {
     width: 100%;
 }
-.card-pandit.select-card .left-align .name-title{
+
+.card-pandit.select-card .left-align .name-title {
     margin-bottom: 5px;
 }
 
@@ -1631,26 +1630,37 @@ footer .bottom-footer p {
 ul li {
     list-style: none;
 }
-ul , ol{
+
+ul,
+ol {
     padding: 0px;
     margin: 0px;
 }
-h1,h2, h4, h5, h6 {
+
+h1,
+h2,
+h4,
+h5,
+h6 {
     margin: 0px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.astraprofile{
+
+.astraprofile {
     padding-top: 26px;
     padding-bottom: 0px;
 }
-  .links ul  {
-display: flex;
-padding-bottom: 36px;
+
+.links ul {
+    display: flex;
+    padding-bottom: 36px;
 }
-  .links ul li a {
-    
+
+.links ul li a {
+
 
     font-weight: 400;
     font-size: 14px;
@@ -1663,7 +1673,7 @@ padding-bottom: 36px;
     padding: 58px 31px;
     border: 1px solid #E0E0E0;
     border-radius: 10px;
-    display: flex; 
+    display: flex;
     /* align-items: center;    */
 }
 
@@ -1671,7 +1681,8 @@ padding-bottom: 36px;
 .astraprofile .profile .userdetails {
     padding-left: 68px;
 }
-.astraprofile .profile .userdetails h6 { 
+
+.astraprofile .profile .userdetails h6 {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
@@ -1679,7 +1690,7 @@ padding-bottom: 36px;
     padding-bottom: 14px;
 }
 
-.astraprofile .profile .userdetails span.rating{
+.astraprofile .profile .userdetails span.rating {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -1688,10 +1699,12 @@ padding-bottom: 36px;
     margin-bottom: 16px;
 
 }
-.astraprofile .profile .userdetails ul li  span {
+
+.astraprofile .profile .userdetails ul li span {
     padding-left: 16px;
 }
-.astraprofile .profile .userdetails ul li  span  b {
+
+.astraprofile .profile .userdetails ul li span b {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -1699,21 +1712,25 @@ padding-bottom: 36px;
 
 
 }
-.astraprofile .profile .userdetails ul li  span {
+
+.astraprofile .profile .userdetails ul li span {
     font-weight: 300;
 }
-.astraprofile .profile .userdetails ul li{
+
+.astraprofile .profile .userdetails ul li {
     padding-bottom: 16px;
 }
-.astraprofile .profile .userdetails ul li:last-child{
+
+.astraprofile .profile .userdetails ul li:last-child {
     padding-bottom: 0px;
 }
 
 
-.astraprofile .aboutasto{
+.astraprofile .aboutasto {
     padding-top: 52px;
     padding-bottom: 114px;
 }
+
 .relatedpoojs h5,
 .astraprofile .aboutasto h5 {
     font-family: 'DM Serif Display';
@@ -1733,9 +1750,11 @@ padding-bottom: 36px;
     line-height: 24px;
     color: #3A3C41;
 }
-.userpic{
+
+.userpic {
     position: relative;
 }
+
 .userpic span {
     position: absolute;
     width: 20px;
@@ -1746,29 +1765,31 @@ padding-bottom: 36px;
     border-radius: 100%;
 }
 
-section.realtedpoja{
+section.realtedpoja {
     padding: 0px;
 }
 
-.repladedpojacart{
+.repladedpojacart {
     background: #F8F8F8;
     border-radius: 10px;
-    
+
 }
- .pojcartbody{
+
+.pojcartbody {
     padding: 20px 16px;
 }
- .pojcartbody h6 {
+
+.pojcartbody h6 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    
+
     color: #000000;
-    
-     
+
+
 }
 
- 
+
 .repladedpojacart .pojcartbody .price {
     display: flex;
 }
@@ -1781,9 +1802,10 @@ section.realtedpoja{
     font-size: 13px;
     line-height: 29px;
     color: #000000;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
-.repladedpojacart .pojcartbody .price  b {
+
+.repladedpojacart .pojcartbody .price b {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -1793,24 +1815,27 @@ section.realtedpoja{
     padding-left: 8px;
 
 }
+
 .repladedpojacart img {
     max-width: 354px;
 }
-.repladedpojacart .pojcartbody   a {
+
+.repladedpojacart .pojcartbody a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
-    
-    
+
+
 }
 
 section.realtedpoja .allproduct {
     padding-top: 68px;
     padding-bottom: 139px;
 }
+
 section.realtedpoja .allproduct a {
     padding: 16px 64px;
     border-radius: 30px;
@@ -1829,7 +1854,8 @@ section.realtedpoja .allproduct a {
 .poojas {
     padding-top: 48px;
 }
-.pojatitle  h1 {
+
+.pojatitle h1 {
 
     font-family: 'DM Serif Display';
     font-style: normal;
@@ -1840,8 +1866,9 @@ section.realtedpoja .allproduct a {
     text-transform: uppercase;
     color: #000000;
     padding-bottom: 20px;
-    
+
 }
+
 .pojatitle p {
     font-family: 'Poppins';
     font-style: normal;
@@ -1849,7 +1876,7 @@ section.realtedpoja .allproduct a {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #3A3C41;    
+    color: #3A3C41;
     max-width: 620px;
     margin: 0 auto;
 }
@@ -1864,18 +1891,19 @@ section.realtedpoja .allproduct a {
 }
 
 
-.poojas .pojatabs a  {
-        padding: 16px 36px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        border-radius: 30px;
-        color: #4E4E52;
-        border: 1px solid #E0E0E0;
+.poojas .pojatabs a {
+    padding: 16px 36px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 30px;
+    color: #4E4E52;
+    border: 1px solid #E0E0E0;
 
 
 }
-.poojas .pojatabs a.active{
+
+.poojas .pojatabs a.active {
     color: #F8560D;
     border: 1px solid #F8560D;
 }
@@ -1885,9 +1913,10 @@ section.realtedpoja .allproduct a {
     border: 1px solid #E0E0E0;
     border-radius: 30px;
     padding: 16px;
-    
+
 }
-.poojas .search  input {
+
+.poojas .search input {
     font-family: 'Poppins';
     font-style: normal;
     border: none;
@@ -1899,33 +1928,34 @@ section.realtedpoja .allproduct a {
     color: #85888E;
 
 }
-.poojas .search  select{
+
+.poojas .search select {
     border: none;
     outline: none;
     width: 100%;
 }
 
-.poojas  .pojacarts {
+.poojas .pojacarts {
     padding-top: 68px;
 }
 
-section.poojas .repladedpojacart{
+section.poojas .repladedpojacart {
     margin-bottom: 68px;
 }
 
 
 /* section.Musical */
 
-section.Musical{
+section.Musical {
     padding-top: 31px;
 }
 
-section.Musical .links ul{
+section.Musical .links ul {
     padding-bottom: 48px;
 }
 
 
-.musicalcontent  h4 {
+.musicalcontent h4 {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
@@ -1934,18 +1964,19 @@ section.Musical .links ul{
     color: #353535;
 
 }
+
 .category {
     display: flex;
     align-items: center;
     height: 100%;
     padding: 24px 0px;
-   
+
 
 
 }
 
-.category  a,
-.category  h6 {
+.category a,
+.category h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -1954,12 +1985,12 @@ section.Musical .links ul{
     color: #353535;
 }
 
-.category  a {
+.category a {
     color: #F8560D;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
-.maincontent  h5 {
+.maincontent h5 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -1979,6 +2010,7 @@ section.Musical .links ul{
     color: #5E5F63;
 
 }
+
 .bookingpoja form select {
     width: 100%;
     padding: 16px;
@@ -1987,14 +2019,15 @@ section.Musical .links ul{
     margin-bottom: 24px;
     outline: none;
     appearance: none;
-    -moz-appearance:none ;
     -moz-appearance: none;
-    -o-appearance:none ;
-    -ms-appearance:none ;
-    -webkit-appearance:none ;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
     background-repeat: no-repeat;
     background-position: 95% center;
 }
+
 .subitdata a {
     padding: 16px 64px;
     background: #F8560D;
@@ -2010,13 +2043,16 @@ section.Musical .links ul{
     color: #FFFFFF;
 
 }
+
 .muscialpic .mainimg {
     position: relative;
 }
+
 .muscialpic .mainimg img {
     max-width: 430px;
 }
-.muscialpic .mainimg::after{
+
+.muscialpic .mainimg::after {
     position: absolute;
     content: '';
     left: 39px;
@@ -2025,13 +2061,15 @@ section.Musical .links ul{
     z-index: -1;
     top: 39px;
     height: 100%;
-    width: 79% ;
-   
-} 
+    width: 79%;
+
+}
+
 .maincontent .showme {
     display: none;
 }
-#showdata{
+
+#showdata {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -2040,6 +2078,1818 @@ section.Musical .links ul{
     color: #151C2C;
 }
 
-footer + .alert {
+.dashboard-section-content {
+    padding: 40px 0;
+}
+
+.dashboard-inner-content {
+    display: flex;
+    /* align-items: center; */
+}
+
+.dashboard-inner-content .left-sidebar {
+    max-width: 410px;
+    height: 100%;
+    width: 100%;
+    padding-right: 30px;
+
+}
+
+.dashboard-inner-content .left-sidebar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dashboard-inner-content .left-sidebar ul li a {
+    display: block;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E4E52;
+    padding: 15px 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.dashboard-inner-content .left-sidebar ul li a.active {
+    border-color: #F8560D;
+    color: #F8560D;
+}
+
+.dashboard-inner-content .right-content-section {}
+
+.dashboard-inner-content .content-section .inner-content .header-dash {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.dashboard-inner-content .content-section {
+    width: 100%;
+    padding: 0 35px;
+    border-left: 1px solid #E0E0E0;
+}
+
+.dashboard-inner-content .content-section .inner-content .header-dash h4 {
+    width: 100%;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 39px;
+    color: #222222;
+    text-align: center;
+}
+
+.dashboard-inner-content .content-section .inner-content .header-dash span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-inner-content .content-section .inner-content .header-dash span img {
+    margin-right: 15px;
+}
+
+.dashboard-form {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.dashboard-form .form-group {
+    margin-bottom: 25px;
+}
+
+.dashboard-form .form-group label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0F0E0E;
+    margin-bottom: 10px;
+}
+
+.dashboard-form .form-group .form-control {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F0E0E;
+    height: 56px;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+
+}
+
+.dashboard-form .form-group .form-control::placeholder {
+    color: #0F0E0E;
+}
+
+.btn.btn-save {
+    max-width: 250px;
+    width: 100%;
+    height: 56px;
+    background: #F8560D;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+}
+
+.gener-section {
+    display: flex;
+    align-items: center;
+    width: 194px;
+    justify-content: space-between;
+}
+
+.gender-radio {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111112;
+}
+
+/* Hide the browser's default radio button */
+.gender-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.gender-radio .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    border: 1px solid #868484;
+    background: transparent;
+}
+
+/* On mouse-over, add a grey background color */
+.gender-radio:hover input~.checkmark {
+    background-color: transparent;
+}
+
+/* When the radio button is checked, add a blue background */
+.gender-radio input:checked~.checkmark {
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.gender-radio .checkmark:after {
+    content: "";
+    position: absolute;
     display: none;
 }
+
+/* Show the indicator (dot/circle) when checked */
+.gender-radio input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.gender-radio .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+
+
+
+.wallet-card {
+    display: flex;
+    align-items: center;
+    background: #FFF5E9;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.wallet-card .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.wallet-card .left-column h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    color: #212121;
+}
+
+.wallet-card .left-column span {
+    font-family: 'Poppins';
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    color: #F8560D;
+
+}
+
+.wallet-card .right-column,
+.wallet-card .left-column {
+    width: 50%;
+}
+
+.wallet-card .left-column {
+    position: relative;
+}
+
+.wallet-card .left-column div img {
+    padding-right: 20px;
+}
+
+.wallet-card .left-column::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    width: 1.4px;
+    height: 130px;
+    background-color: #E0E0E0;
+    background-color: #E0E0E0;
+    transform: translateY(-50%);
+}
+
+.wallet-card .right-column .form-control {
+    font-family: 'Poppins';
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 56px;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    color: #4E4E52;
+
+
+}
+
+.wallet-card .right-column .form-control::placeholder {
+    color: #4E4E52;
+}
+
+.wallet-card .right-column .btn.btn-recharge {
+    width: 145px;
+    height: 40px;
+    background: #F8560D;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+    margin-top: 10px;
+
+}
+
+.wallet-title {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #111115;
+    margin-bottom: 15px;
+}
+
+.wallet-card2 {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.wallet-card2 .w-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wallet-card2 .w-header h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #111115;
+    padding-top: 18px;
+}
+
+.wallet-card2 .w-header span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F8560D;
+}
+
+.wallet-card2 .w-header .status {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0;
+    color: #111115;
+}
+
+.wallet-card2 .w-header .status .success {
+    color: #19BB33;
+}
+
+.wallet-card2 .w-header .status .pending {
+    color: #B66200;
+}
+
+.wallet-card2 strong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #4E4E52;
+}
+
+.wallet-trans-all {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #F8560D;
+    text-align: center;
+}
+
+.pandit-card .card-pandit .img img {
+    border: 1.01333px solid #F8560D;
+    border-radius: 100px;
+}
+
+.pandit-card {
+    display: flex;
+    padding: 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.pandit-card .card-pandit {
+    box-shadow: none;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.pandit-card .inner-pn {
+    width: 240px;
+    display: flex;
+    align-items: center;
+}
+
+.pandit-card .inner-pn h5 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111115;
+    margin-bottom: 8px;
+}
+
+.pandit-card .inner-pn p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    color: #111115;
+
+}
+
+.pandit-card .card-pandit .left-align {
+    width: 110px;
+    margin-right: 15px;
+}
+
+/* .pandit-card .card-pandit .right-align{
+    width: 120px;
+    padding-right: 10px;
+} */
+.pandit-card .right-column {
+    position: relative;
+}
+
+.pandit-card .right-column .delete-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pandit-card .left-column,
+.pandit-card .right-column {
+    width: 50%;
+}
+
+.pandit-card .right-column .btn-book-again {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn.btn-book-again {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    width: 120px;
+    height: 34px;
+    color: #FFFFFF;
+    background: #F8560D;
+    border: 0.5px solid #F8560D;
+    border-radius: 30px;
+
+}
+
+.inner-pn img {
+    width: 85.4px;
+    height: 75px;
+    border-radius: 6.14067px;
+    padding-right: 10px;
+}
+
+
+/* sahil css */
+
+.pojatabs a {
+    padding: 10px 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222222;
+    margin-right: 20px;
+}
+
+.pojatabs a.active{
+    color: #F8560D;
+    border-color:#F8560D ;
+}
+.bookingpoja{
+    padding-top: 30px;
+    /* margin-bottom: 30px; */
+}
+ .requestpoja{
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+
+}
+.pojastatus{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.pojastatus h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #222222;
+}
+.pojastatus a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #AA3F0E;
+} 
+
+.pojainformation {
+    padding-top: 16px;
+    display: flex;
+
+}
+.content.aproved,
+.pojainformation.rejected .content {
+    max-width: 100%;
+}
+.pojainformation .content{
+    padding: 10px 0px 10px 35px;
+    max-width: 479px;
+    width: 100%;
+}
+
+.pojainformation .content .pojastatus h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #212121;
+
+}
+.pojainformation .content .pojastatus h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #222222;
+}
+.pojainformation .content h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #222222;
+    padding: 21px 0px;
+}
+
+
+.pojainformation .content .pojastatus h6 a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #FA941C;
+}
+
+.pojainformation .content .pojastatus h4{
+    padding: 0px;
+}
+
+a.aprove{
+    color: #B69D1C;
+    border: none;
+    padding: 0px;
+}
+a.Completed{
+    color: #19BB33;
+}
+
+a.rejected{
+    color: #ED0006;
+}
+
+ 
+
+
+.dashboard-inner-content  .content-section.status .inner-content .header-dash{
+    border-bottom: none;
+}
+.aprove{
+border: 1px solid red;
+padding: 16px;
+border: 1px solid #E0E0E0;
+border-radius: 10px;
+}
+.aprove .status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 16px;
+}
+.aprovestatus ul li ,
+.aprove .status h6 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4E4E52;
+}
+.aprovestatus ul li {
+    padding-bottom: 8px;
+}
+.aprovestatus ul li:last-child{
+    padding-bottom: 0px;
+}
+.aprove .status a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #B66200;
+
+}
+.w-header .pojainformation{
+
+    padding-top: 0px;
+}
+
+.w-header .content.contentpoja{
+    padding-top: 0px;
+    padding-left: 10px;
+    max-width: 800px ;
+    width:100%;
+}
+
+.w-header .content.contentpoja .pojastatus h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111115;
+    padding-top: 0px;
+}
+.wallet-card2 h4.catgory{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #111115;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+
+.wallet-card2 .pojainformation .content .pojastatus h6{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111115;
+    
+}
+.wallet-card2 .pojastatus{
+    align-items: center;
+    justify-content: space-between;
+}
+.w-header.aprove{
+    display: block;
+}
+
+.w-header.aprove h5.pandit{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111115;
+    padding-top: 18px;
+}
+.w-header.aprove {
+    border: none;
+    padding: 0px;
+}
+.w-header.aprovepandit{
+    display: block;
+}
+
+
+.wallet-card2.payment .w-header h5,
+.wallet-card2.delivery .w-header h5 {
+padding-top: 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-transform: capitalize;
+color: #111115;
+}
+
+.wallet-card2.delivery strong{
+display: flex;
+align-items: center;
+padding-top: 16px;
+}
+.wallet-card2.delivery strong p {
+    margin-bottom: 0px;
+    max-width: 288px;
+    width: 100%;
+    padding-left: 17px;
+}
+.wallet-card2.payment .w-header{
+    padding: 016px 0px;
+}
+ul.completepayment li {
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4E4E52;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+ul.completepayment li:first-child{
+    padding-top: 0px;
+}
+
+ul.completepayment li:last-child{
+    border-top: 1px solid #E0E0E0;
+    margin-top: 10px;
+}
+ul.completepayment li:last-child strong{
+
+    color: #111115 !important;
+}
+ul.completepayment li strong.done{
+    color: #0A871E;
+
+}
+
+
+.finalchat{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 100px;
+}
+.finalchat a {
+    color: #fff;
+    padding: 16px 95px;
+    background: #F8560D;
+    border: 0.5px solid #F8560D;
+    border-radius: 30px;
+
+}
+
+.finalsttaus {
+
+    max-width: 535px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+.textulasttasu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.finalsttaus img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+.textulasttasu a {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111115;
+}
+.aprove .status a.Completed{
+    color: #19BB33;
+}
+
+.wallet-card2.rateus .w-header h5 {
+    padding-top: 0px;
+
+} 
+ul.rating{
+    display: flex;
+    padding-top: 16px;
+}
+ul.rating li {
+    padding-right: 24px;
+}
+
+
+.aprove .status a.rejected{
+    color: #ED0006;
+}
+.finalchat.reject{
+    padding-top: 48px;
+}
+
+.finalchat.reject a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.finalchat.reject a:first-child {
+   background-color: transparent;
+
+   color: #F8560D;
+    padding: 16px 58px;
+
+}
+.finalchat.reject a:last-child{
+    padding: 16px 24px;
+}
+
+
+
+
+
+
+/* sahil 2 css */
+
+
+.selectpoojaonline {
+    padding-top: 52px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .selectpoojaonline .categorypoja {
+    display: flex;
+    align-items: center;
+  }
+  .selectpoojaonline .categorypoja p {
+    margin-bottom: 0px;
+  }
+  
+  .selectpoojaonline h4 {
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 39px;
+    color: #353535;
+    padding-bottom: 36px;
+  }
+  
+  .selectpoojaonline .selectpojacoent {
+    padding-left: 16px;
+  }
+  .selectpoojaonline .selectpojacoent h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+  }
+  .selectpoojaonline .selectpojacoent p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5f63;
+    padding-top: 8px;
+  }
+  
+  .selectpoojaonline .selectpojaprice h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111115;
+    text-align: center;
+  }
+  .selectpoojaonline .selectpojaprice {
+    padding-top: 54px;
+  }
+  
+  .selectpoojaonline .selectpojaprice a {
+    padding: 16px 64px;
+    background: #f8560d;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  
+    display: block;
+    margin-top: 16px;
+  }
+  
+  section.astraprofile.login {
+    padding-bottom: 50px;
+  }
+  .logindetails button.accordion-button {
+    justify-content: space-between;
+  }
+  .logindetails button.accordion-button a {
+    padding: 10px;
+    border: 1px solid #4285f4;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4285f4;
+  }
+  
+  .logindetails .details {
+    display: flex;
+  }
+  
+  .logindetails .accordion-button::after {
+    display: none;
+  }
+  
+  .logindetails .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .logindetails .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+  }
+  
+  .logindetails .accordion-button:not(.collapsed) {
+    box-shadow: none;
+  }
+  
+  .logindetails .details span {
+    width: 36px;
+    height: 34px;
+    display: inline-block;
+    background: #fffaf5;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 34px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #f8560d;
+  }
+  .logindetails .details h6 {
+    line-height: 34px;
+    padding-left: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #212121;
+  }
+  .logindetails .details h6 img {
+    padding-left: 16px;
+  }
+  .logindetails .accordion-body .logindata a {
+    margin-left: 62px;
+    display: block;
+  }
+  .logindetails .accordion-body .logindata a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #111115;
+  }
+  
+  .logindetails .sumbitdata textarea,
+  .logindetails .sumbitdata select,
+  .logindetails .sumbitdata input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    outline: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4e4e52;
+    margin-bottom: 24px;
+  }
+  
+  .logindetails .sumbitdata select {
+    background-repeat: no-repeat;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background-position: 90% center;
+  }
+  .logindetails .sumbitdata textarea {
+    height: 132px;
+  }
+  
+  .logindetails form h5 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #111115;
+    padding-bottom: 24px;
+  }
+  
+  .logindetails form .sumbitfom {
+    text-align: center;
+  }
+  .logindetails form .sumbitfom a.savedata {
+    margin: 0px;
+    padding: 16px 64px;
+    background: #f8560d;
+    border-radius: 30px;
+    display: inline-block;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  
+  .logindetails .accordion-body .categorypoja {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  
+  .logindetails .accordion-body .categorypoja .selectpojacoent {
+    padding-left: 16px;
+    margin-top: 20px;
+  }
+  .logindetails .accordion-body .categorypoja .selectpojacoent h6 {
+    padding-bottom: 8px;
+  }
+  .logindetails .accordion-body .categorypoja:last-child {
+    padding-bottom: 0px;
+  }
+  
+  .logindetails .accordion-body .categorypoja .selectpojacoent p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5f63;
+  }
+  
+  .logindetails .accordion-body .categorypoja .selectpojacoent b {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #111115;
+  }
+  
+  .logindetails .accordion-body .rating {
+    padding-left: 80px;
+  }
+  
+  .logindetails .membership ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logindetails .membership ul li b {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212121;
+  }
+  .logindetails .membership ul li .radipbtn label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0px 15px;
+  }
+  
+  .logindetails .membership ul li {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+  }
+  .logindetails .membership ul li:first-child {
+    padding-top: 0px;
+  }
+  
+  .logindetails .membership ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .logindetails .payment .accordion-button::after {
+    display: block;
+  }
+  
+  
+  
+  .logindetails .payment .paymentdetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logindetails .payment .paymentdetails h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #212121;
+    padding-left: 12px;
+  }
+  
+  .paymentdone .modal-content {
+    padding: 36px 0px;
+    border-radius: 10px;
+    max-width: 900px;
+  
+  }
+  
+  .paymentdone .modal-content .paymentsucessfull {
+    text-align: center;
+  }
+  
+  .paymentdone .modal-content .paymentsucessfull h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+  
+  .paymentdone .modal-content .paymentsucessfull p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e5f63;
+  }
+  .paymentdone .modal-content .paymentsucessfull h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111115;
+  }
+  .paymentdone .modal-content .paymentsucessfull .btns {
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+  }
+  
+  .paymentdone .modal-content .paymentsucessfull .btns a {
+    padding: 16px;
+    border: 1px solid #f8560d;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f8560d;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  .paymentdone .modal-content .paymentsucessfull .btns a:last-child {
+    background-color: #f8560d;
+    color: #ffffff;
+    margin-top: 16px;
+  }
+  
+  .totalprice ul {
+    padding: 24px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  .totalprice ul p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e5f63;
+  }
+  .totalprice ul li {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .totalprice ul li b.light {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+  }
+  .totalprice ul li b {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212121;
+  }
+  li.price {
+    padding-bottom: 35px;
+    border-bottom: 0.5px dashed #85888e;
+  }
+  li.totalpricemain {
+    padding-top: 16px;
+  }
+  
+  .totalprice a.pay {
+    margin: 0 auto;
+    display: block;
+    background-color: red;
+    margin-top: 16px;
+    padding: 16px 64px;
+    width: 250px;
+    background: #f8560d;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  
+  .border-left {
+    position: relative;
+  }
+  .border-left::after {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    background-color: #e0e0e0;
+    content: "";
+    right: -40px;
+    top: 0;
+  }
+  
+  .alert {
+    max-width: 400px;
+    padding: 16px;
+    background: #4e4e52;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999;
+    left: -80px;
+    bottom: 40px;
+  }
+  
+  .alerthead {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #747272;
+  }
+  .alerthead h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: #ffffff;
+  }
+  
+  .mainconent {
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+  .mainconent span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    max-width: 180px;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: none;
+    display: inline-block;
+  }
+  .mainconent p {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  
+  .alertme:hover .alert {
+    display: block;
+  }
+  
+  .logindetails .accordion-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .logindetails .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(1rem - 6px);
+    border-top-right-radius: calc(1rem - 6px);
+  }
+  .logindetails .accordion-button {
+    border-top-left-radius: calc(1rem - 6px);
+    border-top-right-radius: calc(1rem - 6px);
+    border-bottom-left-radius: calc(1rem - 6px);
+    border-bottom-right-radius: calc(1rem - 6px);
+  }
+  
+  .logindetails .accordion-item:last-of-type .accordion-button {
+    border-bottom-left-radius: calc(1rem - 6px);
+    border-bottom-right-radius: calc(1rem - 6px);
+  }
+  
+  .radipbtn .selectbtn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logindetails .membership .radipbtn input[type="radio"] {
+    accent-color: #f8560d;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .alert {
+    display: none;
+  }
+  .alertme {
+    cursor: pointer;
+  }
+  
+  .paymentsoptions .paymentsdetailscard input {
+    width: 100%;
+    padding: 16px 0px 16px 15px;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 30px;
+    outline: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.155817px;
+    color: #5e5f63;
+  }
+  
+  .paymentsoptions .paymentsdetailscard {
+    margin-bottom: 16px;
+  }
+  .paymentcardnumber {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .paymentcardnumber input {
+    padding: 16px 0px 16px 15px;
+    width: 94px;
+    background: #ffffff;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 30px;
+    outline: none;
+  }
+  .paymentcardnumber input:first-child {
+    position: relative;
+    margin-right: 27px;
+  }
+  .paymentcardnumber input:first-child::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: red;
+    right: 0px;
+    top: 0px;
+  }
+  
+  .paymentsoptions .radiobtn{
+      margin-top: 37px;
+  }
+  
+  .paymentsoptions .radiobtn label{
+  
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #5E5F63;
+      padding-left: 14px;
+  
+  }
+  
+  .paymentsoptions .radiobtn input[type="radio"]{
+      accent-color: #F8560D;
+  }
+  
+  .onlinepayment ul li{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      text-transform: capitalize;
+      color: rgba(33, 33, 33, 0.8);
+      padding: 24px 0px;
+      border-bottom: 0.879487px solid rgba(233, 231, 253, 0.5);
+  
+  
+  }
+  .onlinepayment ul li img {
+      padding: 0px 16px;
+  }
+  
+  .onlinepayment ul li:first-child{
+      padding-top: 0px;
+  }
+  
+  .onlinepayment ul li:last-child{
+      border-bottom: none;
+      padding-bottom: 0px;
+  }
+  
+  
+   .logindetails .payment .accordion-item {
+      border-top: 0.5px solid #E0E0E0;
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+      border-radius: 0px;
+      padding-top: 36px;
+      padding-bottom: 24px;
+    } 
+  
+    
+   .logindetails .payment .accordion-item:first-child{
+      border-top: none;
+      padding-top: 0px;
+   }
+   .logindetails .payment .accordion-item:last-child{
+      padding-bottom: 0px;
+   }
+  
+  
+   /* virual pooja */
+  
+   
+   
+   section.poojas.virutalpuja .pojacarts .repladedpojacart{
+      background-color: white;
+   }
+  
+   section.poojas.virutalpuja .pojacarts .repladedpojacart .pojcartbody{
+      padding-left: 0px;
+      padding-right: 0px;
+   }
+   section.poojas.virutalpuja .repladedpojacart .pojcartbody .price b{
+      padding-left: 0px;
+   }
+  
+   
+   section.poojas.virutalpuja .pojacarts .repladedpojacart {
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+      border-radius: 12px;
+      padding: 10px;
+   }
+  
+   section.poojas.virutalpuja .pojacarts .repladedpojacart a img {
+      max-width: 338px;
+   }
+  
+   section.poojas.virutalpuja .pojacarts .repladedpojacart .descraption {
+      padding-top: 16px;
+   }
+   section.poojas.virutalpuja .pojacarts .repladedpojacart .descraption  p {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #4E4E52;
+      margin-bottom: 0px;
+   }
+  
+   
+   section.poojas.virutalpuja .pojacarts .repladedpojacart .pojcartbody{
+      padding-bottom: 0px;
+   }
+  
+   section.poojas.virutalpuja .pojacarts .repladedpojacart .descraption  p a {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+  
+   }
+  .showme{
+      display: none;
+  }
+  
+  
+  /* ramayan */
+  section.astraprofile.ramayan  .aboutramany h4 {
+      padding-bottom: 30px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+  
+  }
+  
+  .aboutramany .ankandramayna img{
+      display: block;
+      margin: 0 auto;
+      padding-bottom: 48px;
+  }
+  
+  section.astraprofile.ramayan  .aboutramany h5{
+      font-family: 'Times New Roman';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 39px;
+      color: #353535;
+      padding-bottom: 24px;
+  
+  }
+  
+  section.astraprofile.ramayan  .aboutramany p{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #4E4E52;
+      padding-bottom: 48px;
+  }
+  
+  
+  
+  section.astraprofile.ramayan  .aboutramany h5.offer{
+      padding-bottom: 24px;
+  }
+  
+  section.astraprofile.ramayan  .aboutramany .points p {
+      margin-bottom: 16px;
+      padding-bottom: 0px;
+  }
+  
+  section.astraprofile.ramayan  .aboutramany .points{
+      padding-bottom: 48px;
+  }
+  
+  .ramayan .bookpandit {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+  }
+  .ramayan .bookpandit b {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      padding-bottom: 24px;
+  
+  }
+  
+  .ramayan .bookpandit a {
+      background-color: red;
+      display: block;
+      width: 250px;
+      height: 56px;
+      background: #F8560D;
+      border-radius: 30px;
+      margin: 0 auto;        
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 56px;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+  }
+  section.astraprofile.ramayan{
+      padding-bottom: 95px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  section.Musical.specailpoja  .specialpooja {
+    padding-top: 150px;
+  }
+  
+  
+  
+  
+  section.Musical.specailpoja   .formdata {
+   
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  section.Musical.specailpoja   .formdata select,
+  section.Musical.specailpoja   .formdata input{
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #4E4E52;
+  
+  }
+  section.Musical.specailpoja   .formdata select{
+    background-repeat: no-repeat;
+    outline: none;
+    appearance: none;
+    -moz-appearance:none ;
+    -moz-appearance: none;
+    -o-appearance:none ;
+    -ms-appearance:none ;
+    -webkit-appearance:none ;
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    padding-left: 50px;
+  }
+  section.Musical.specailpoja   .formdata label{
+    padding-bottom: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  
+  }
+  section.Musical.specailpoja   .formdata{
+    margin-bottom: 48px;
+  
+  }
+  
+  
+  
+  
+  section.Musical.specailpoja .formdata textarea{
+    width: 100%;
+    height: 112px;
+    outline: none;
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+  
+  }
+  
+  section.Musical.specailpoja .pojamode p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  section.Musical.specailpoja .pojamode a {
+    padding: 10px 37px;
+    border: 1px solid #1400FF;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1400FF;
+  
+  }
+  section.Musical.specailpoja .pojamode a:last-child{
+    border: 1px solid #FF2E00;
+    color: #FF2E00;
+  }
+  
+  section.Musical.specailpoja .savedata{
+    padding-top: 68px;
+  }
+  
+  section.Musical.specailpoja .savedata a {
+    padding: 16px 64px;
+    background: #F8560D;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  
+  }
+  
+  
+  .paymentdone .modal-dialog.modal-dialog-centered{
+    max-width: 603px;
+  
+  }

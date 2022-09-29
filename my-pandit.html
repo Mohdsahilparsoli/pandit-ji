@@ -8,6 +8,7 @@
     <title>Astropanditom</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/swiper.css">
+
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
@@ -17,8 +18,8 @@
 
 <body>
 
-    <!------------- Header Section Start -------------------------------->
-    <header>
+     <!------------- Header Section Start -------------------------------->
+     <header>
         <div class="inner-header">
             <div class="container" style="position: relative;">
                 <div class="top-section ms-auto pull-right">
@@ -131,139 +132,176 @@
     <!------------- Header Section End -------------------------------->
 
 
-    <section class="registration">
+    <div class="dashboard-section-content">
         <div class="container">
-            <h2 class="reg-title text-center">Pandit Registration</h2>
-            <div class="upload">
-                <div class="form-group">
-                    
-                    <div class='img_container'>
-                          <img id="preview4" src="assets/images/upload.png" class="upld-item"/>
-                          <div class="custom-file">
-                            <input type="file"  id="inputGroupFile01" required="required" name="license_first" onchange="restImage1(event)" class="imgInp custom-file-input" aria-describedby="inputGroupFileAddon01">
-                            <label></label>
-                          </div>
-                        </div> 
-                        <p class="profile-txt">Profile Pic<span class="red">*</span><span>(png, jpg, jpeg only)</span></p>
+            <div class="dashboard-inner-content">
+                <div class="left-sidebar">
+                    <ul>
+                        <li><a href="">My Profile</a></li>
+                        <li><a href="">My Bookings</a></li>
+                        <li><a href="">My Address</a></li>
+                        <li><a href=""  class="active">My Pandit Ji</a></li>
+                        <li><a href="">My Wallet</a></li>
+                        <li><a href="">Logout</a></li>
+                       
+                    </ul>
                 </div>
-              </div>
-            <div class="reg-form">
-                <form>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="form-group">
-                                <h5 class="dt-title">Personal Information</h5>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Name*</label>
-                                <input type="text" class="form-control" name="" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Location*</label>
-                                <select class="form-control"
-                                    style="background-image: url('assets/images/select-drop.svg');">
-                                    <option>Location</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Gender*</label>
-                                <select class="form-control"
-                                    style="background-image: url('assets/images/select-drop.svg');">
-                                    <option>Male</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Date Of Birth</label>
-                                <input type="date" class="form-control" name="" placeholder="">
+                <div class="content-section">
+                    <div class="inner-content">
+                      <div class="row">
+                        <div class="col-12">
+                            <div class="pandit-card">
+                                <div class="left-column">
+                                    <div class="card-pandit">
+                                        <div class="left-align">
+                                            <div class="img">
+                                                <img src="assets/images/profile-img.png" alt="img">
+                                               
+                                            </div>
+                                            <h5 class="name-title">Astro Sachin</h5>
+                                            <span class="rating">4.5 <img src="assets/images/rating.svg" alt="rating"></span>
+                                        </div>
+                                        <div class="right-align">
+                                            <ul>
+                                                <li><img src="assets/images/fi_calendar.svg" alt="fi_calendar">25 Oct, 09:00PM</li>
+                                                <li><img src="assets/images/language.svg" alt="language">Hindi, English</li>
+                                                <li><img src="assets/images/inr.svg" alt="inr">₹5000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-column">
+                                    <div class="inner-pn">
+                                        <img src="assets/images/pnd.png" alt="">
+                                        <div class="">
+                                            <h5>Akhand Ramayan
+                                                Musical</h5>
+                                            <p>Category : Online Pooja</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/delete.svg" class="delete-icon" alt="">
+                                    <button class="btn btn-book-again">Book Again</button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Specialization*</label>
-                                <select class="form-control"
-                                    style="background-image: url('assets/images/select-drop.svg');">
-                                    <option>Vedic</option>
-                                </select>
+                        <div class="col-12">
+                            <div class="pandit-card">
+                                <div class="left-column">
+                                    <div class="card-pandit">
+                                        <div class="left-align">
+                                            <div class="img">
+                                                <img src="assets/images/profile-img.png" alt="img">
+                                               
+                                            </div>
+                                            <h5 class="name-title">Astro Sachin</h5>
+                                            <span class="rating">4.5 <img src="assets/images/rating.svg" alt="rating"></span>
+                                        </div>
+                                        <div class="right-align">
+                                            <ul>
+                                                <li><img src="assets/images/fi_calendar.svg" alt="fi_calendar">25 Oct, 09:00PM</li>
+                                                <li><img src="assets/images/language.svg" alt="language">Hindi, English</li>
+                                                <li><img src="assets/images/inr.svg" alt="inr">₹5000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-column">
+                                    <div class="inner-pn">
+                                        <img src="assets/images/pnd.png" alt="">
+                                        <div class="">
+                                            <h5>Akhand Ramayan
+                                                Musical</h5>
+                                            <p>Category : Online Pooja</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/delete.svg" class="delete-icon" alt="">
+                                    <button class="btn btn-book-again">Book Again</button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Add Qualification Certification(If any)</label>
-                                <input class="form-control" type="file" id="formFile">
+
+                        <div class="col-12">
+                            <div class="pandit-card">
+                                <div class="left-column">
+                                    <div class="card-pandit">
+                                        <div class="left-align">
+                                            <div class="img">
+                                                <img src="assets/images/profile-img.png" alt="img">
+                                               
+                                            </div>
+                                            <h5 class="name-title">Astro Sachin</h5>
+                                            <span class="rating">4.5 <img src="assets/images/rating.svg" alt="rating"></span>
+                                        </div>
+                                        <div class="right-align">
+                                            <ul>
+                                                <li><img src="assets/images/fi_calendar.svg" alt="fi_calendar">25 Oct, 09:00PM</li>
+                                                <li><img src="assets/images/language.svg" alt="language">Hindi, English</li>
+                                                <li><img src="assets/images/inr.svg" alt="inr">₹5000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-column">
+                                    <div class="inner-pn">
+                                        <img src="assets/images/pnd.png" alt="">
+                                        <div class="">
+                                            <h5>Akhand Ramayan
+                                                Musical</h5>
+                                            <p>Category : Online Pooja</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/delete.svg" class="delete-icon" alt="">
+                                    <button class="btn btn-book-again">Book Again</button>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="form-group">
-                                <label>About/Bio</label>
-                                <textarea name="" id="" cols="3" rows="1" class="form-control"></textarea>
+
+                        <div class="col-12">
+                            <div class="pandit-card">
+                                <div class="left-column">
+                                    <div class="card-pandit">
+                                        <div class="left-align">
+                                            <div class="img">
+                                                <img src="assets/images/profile-img.png" alt="img">
+                                               
+                                            </div>
+                                            <h5 class="name-title">Astro Sachin</h5>
+                                            <span class="rating">4.5 <img src="assets/images/rating.svg" alt="rating"></span>
+                                        </div>
+                                        <div class="right-align">
+                                            <ul>
+                                                <li><img src="assets/images/fi_calendar.svg" alt="fi_calendar">25 Oct, 09:00PM</li>
+                                                <li><img src="assets/images/language.svg" alt="language">Hindi, English</li>
+                                                <li><img src="assets/images/inr.svg" alt="inr">₹5000</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-column">
+                                    <div class="inner-pn">
+                                        <img src="assets/images/pnd.png" alt="">
+                                        <div class="">
+                                            <h5>Akhand Ramayan
+                                                Musical</h5>
+                                            <p>Category : Online Pooja</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/images/delete.svg" class="delete-icon" alt="">
+                                    <button class="btn btn-book-again">Book Again</button>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5">
-                            <div class="form-group">
-                                <h5 class="dt-title">Pooja Details</h5>
-                            </div>
-                        </div>
-
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Select Pooja Category*</label>
-                                <select class="form-control"
-                                    style="background-image: url('assets/images/select-drop.svg');">
-                                    <option>Select Category</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Pooja Charges*</label>
-                                <input type="text" class="form-control" name="" placeholder="">
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="form-group">
-                                <label>Pooja Decription*</label>
-                                <textarea name="" id="" cols="3" rows="1" class="form-control"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <div class="form-group">
-                                <label>Pooja Photo</label>
-
-                                <input class="form-control" type="file" id="formFile">
-
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="form-group text-center">
-                                <button type="button" class="btn-submit" data-bs-toggle="modal" data-bs-target="#successModal">Submit</button>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                </form>
+                </div>
             </div>
-
         </div>
-    </section>
+    </div>
+
+
 
     <footer>
         <div class="top-footer">
@@ -335,47 +373,12 @@
 
 
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/swiper.js"></script>
     <script src="assets/js/custom.js"></script>
 
-    <script>
-        
-  multiple1 = new Array();
- function restImage1(event) {
-
-   this.multiple1 = [];
-   let multipleFiles = event.target.files;
-   if (multipleFiles) {
-      for (var file of multipleFiles) {
-         var multipleReader = new FileReader();
-         multipleReader.onload = (e) => {
-            $('#preview4').attr('src', e.target.result)
-         }
-         multipleReader.readAsDataURL(file);
-      }
-   }
- }
-    </script>
-
-<div class="modal fade login-modal" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-        <div class="modal-header">
-            <img src="assets/images/success.svg" class="img-fluid mb-4" alt="suceess">
-            <h5 class="modal-title" id="exampleModalLabel">Registration Successfully </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            <p>Thank you for the registration. Our team shortly get back to you </p>
-        </div>
-        <div class="modal-body">
-            <p class="success-txt">You can reach out to us for astrologers onboarding support team at <a
-                    href="">support@astropanditom.com</a> in case of any issue or query </p>
-        </div>
-    </div>
-</div>
-</div>
 
 </body>
 
